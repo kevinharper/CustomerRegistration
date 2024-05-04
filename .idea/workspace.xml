@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="574991ed-da7c-4bef-a5c0-e2598b171c02" name="Changes" comment="Multi-module, swagger, and AWS JDBC support">
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/CustomerRegistrationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/CustomerRegistrationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/service/impl/CustomerServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/service/impl/CustomerServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/web/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/web/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/web/UserRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/web/UserRegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaguides/springboot/web/dto/UserRegistrationDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/web/dto/UserRegistrationDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/create_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/resources/templates/create_customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/customers.html" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/resources/templates/customers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/resources/templates/edit_customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/main/resources/templates/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/javaguides/springboot/CustomerRegistrationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerRegistrationAPI/src/test/java/net/javaguides/springboot/CustomerRegistrationApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2f93Jf36r7P0or0HqrOMpTcKito" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.CustomerServiceImpTest.executor": "Run",
+    "JUnit.CustomerServiceImpTest.getAllCustomers.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "prelim-email-distro-updates",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Ideaprojects/CustomerRegistration/CustomerRegistrationAPI/src/main/resources/templates/NotCustomizedYet",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Ideaprojects\CustomerRegistration\InfrastructureSetup" />
+      <recent name="C:\Ideaprojects\CustomerRegistration\CustomerRegistrationAPI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Ideaprojects\CustomerRegistration\CustomerRegistrationFrontEnd\handcrafted" />
+      <recent name="C:\Ideaprojects\CustomerRegistration\CustomerRegistrationAPI" />
+      <recent name="C:\Ideaprojects\CustomerRegistration\CustomerRegistrationAPI\src" />
+      <recent name="C:\Ideaprojects\CustomerRegistration\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.javaguides.springboot.service.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CustomerServiceImpTest">
+    <configuration name="CustomerServiceImpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CustomerRegistration (1)" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.javaguides.springboot.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.javaguides.springboot.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="net.javaguides.springboot.service.impl.CustomerServiceImpTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceImpTest.getAllCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CustomerRegistration (1)" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.javaguides.springboot.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.javaguides.springboot.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="net.javaguides.springboot.service.impl.CustomerServiceImpTest" />
+      <option name="METHOD_NAME" value="getAllCustomers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerServiceImpTest" />
+        <item itemvalue="JUnit.CustomerServiceImpTest.getAllCustomers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="574991ed-da7c-4bef-a5c0-e2598b171c02" name="Changes" comment="" />
+      <created>1713199396222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713199396222</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Multi-module, swagger, and AWS JDBC support" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi-module, swagger, and AWS JDBC support" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CustomerRegistrationAPI/src/main/java/net/javaguides/springboot/config/DatabaseConfig.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
